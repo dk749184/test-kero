@@ -370,7 +370,7 @@ export function LoginPage({ onBackToHome }: LoginPageProps) {
           </form>
 
           {/* Demo Credentials */}
-          {isLogin && (
+          {/*{isLogin && (
             <div className="mt-4">
               <button
                 onClick={fillDemoCredentials}
@@ -379,7 +379,7 @@ export function LoginPage({ onBackToHome }: LoginPageProps) {
                 Use Demo Credentials ({role})
               </button>
             </div>
-          )}
+          )}*/}
 
           {/* Toggle Login/Register */}
           <div className="mt-6 text-center">
